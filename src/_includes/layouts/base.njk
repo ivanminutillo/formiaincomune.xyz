@@ -1,13 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dracula">
   <head>
     <title>{{ title }}</title>
      <link rel="stylesheet" type="text/css" href="/assets/main.css" />
   </head>
   <body>
-    {% include "../components/navigation.njk" %}
-    <main class="p-12">
-      <h1 class="text-3xl mb-8">{{title}}</h1>
+   
+    <main class="bg-base-200">
       {{ content | safe }}
     </main>
     <script src="/assets/main.js"></script>
